@@ -1,0 +1,9 @@
+
+.box {
+    width: 100px;
+    height: 100px;
+    background-color: black;
+    margin: auto;
+    transform: scale(1.5,1);
+    transform: rotate(45deg);
+}

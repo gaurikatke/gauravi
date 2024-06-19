@@ -1,0 +1,25 @@
+body {
+  height: 200vh;
+}
+.container {
+  display: flex;
+  background: skyblue;
+  gap: 20px;
+}
+.box {
+  width: 100px;
+  height: 100px;
+  background: brown;
+  border: 1px black solid;
+}
+`
+.box:hover {
+  background-color: pink;
+  transition: all 0.3s red;
+}
+#box1 {
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  z-index: -8;
+}

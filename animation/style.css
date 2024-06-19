@@ -1,0 +1,22 @@
+.box{
+    height: 100px;
+    width: 100px;
+    background-color: beige;
+    border-radius: 10px;
+    text-align: center;
+}
+@keyframes bg {
+    from { background-color:red; rotate: 0deg; scale: 2;}
+    to {background-color: orange; rotate: 45deg; scale: 4 ; translate: 200px 0;}
+}
+.box {
+    animation: bg 2s ease-in-out infinite normal forwards;
+
+}
+.flex {
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+}
