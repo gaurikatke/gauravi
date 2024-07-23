@@ -1,0 +1,134 @@
+*{
+    margin: 0;
+    padding: 0;
+box-sizing: border-box;
+font-family: sans-serif;
+font-style: italic;
+}
+html,body {
+width: 100%;
+height: 200%;
+}
+.navbar{
+    background: black;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    position: absolute;
+    top: 0px;
+    width: 100%;
+    z-index: 1;
+}
+.logo{
+    margin: 2px 0px;
+    width: 4%;
+}
+.logo img{
+    width: 100%;
+}
+.links{
+    display: flex;
+    gap: 10px;
+    transition: all 0.2s ease-in-out;
+}
+.links a{
+    text-decoration: none;
+    color: white;
+    border-radius: 8px;
+    padding: 2px 4px;
+    transition: all 0.2s ease-in-out;
+    font-family: sans-serif;
+    font-size: smaller;
+}
+.links a:hover{
+    background: black;
+    color: orchid;
+}
+.home{
+    width: 100vw;
+    height: 100vh;
+    background-image: url(bg.png);
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    color: cornsilk;
+    position: relative;
+}
+.home button{
+    background-color: rgb(160, 24, 108);
+    color: white;
+    border: none;
+    border-radius: 12px;
+    padding: 2px 4px;
+    position: absolute;
+    bottom: 0;
+    translate: 0px 10px;
+    border: white 2px solid;
+    font-size: smaller;
+}
+.services{
+    width: 80vh;
+    display: flex;
+    align-items: center;
+    padding-top: 100px;
+    flex-direction: column;
+}
+.services h1{
+    font-size: 60px;
+    margin-bottom: 40px;
+}
+.lists{
+    display: flex;
+    gap: 20px;
+}
+.list{
+    border: red 1px solid;
+    border-radius: 8px;
+    background:pink;
+    padding: 20px;
+    width: 300px;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+}
+.list img{
+    width: 200px;
+    height: 150px;
+}
+.list h2{
+    font-size: x-large;
+
+}
+.clients {
+    height: 40vh;
+    margin-top: 50px;
+    background: url(logo1.jpeg);
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+.clients h1 {
+    font-size: xx-large;
+    margin-top: 20px;
+    font-style: italic;
+}
+.images{
+    width: 100%;
+    height: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.images img{
+    height:60%;
+}
+
