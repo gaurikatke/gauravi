@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100vw;
+    height: 100vh;
+    background: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.container{
+    display: flex;
+    width: 625px;
+    flex-wrap: wrap;
+    gap: 1px;
+}
+.square{
+    width: 25px;
+    height: 25px;
+    background: rgba(255,255,255,0.1);
+    border-radius: 25%;
+    transition: 0%;
+}
